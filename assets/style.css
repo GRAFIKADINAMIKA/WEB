@@ -217,3 +217,25 @@ footer a {
     opacity: .24;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  section, footer {
+    margin: 20vw 5vw;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+  .caption {
+    font-size: 5vw;
+    margin: 2vw auto;
+  }
+  .dude {
+    width: 60px;
+    margin: 16px auto;
+  }
+  .lock {
+    width: 24px;
+    height: 24px;
+    margin: 24px;
+  }
+}
