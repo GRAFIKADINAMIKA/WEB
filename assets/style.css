@@ -237,10 +237,10 @@ footer a {
     margin-bottom: 32px;
   }
   h1 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   button {
-    font-size: 10vw;
+    font-size: 9vw;
     padding: 0 5vw;
     height: 20vw;
     border-radius: 10vw;
@@ -257,8 +257,11 @@ footer a {
     display: none;
   }
   .caption {
-    font-size: 5vw;
+    font-size: 4vw;
     margin: 2vw auto;
+  }
+  .sub span {
+    font-size: 4vw;
   }
   .dude {
     width: 60px;
@@ -270,6 +273,9 @@ footer a {
     margin: 24px;
   }
   .sub {
-    padding: 5vw;
+    padding: 7vw 5vw;
+  }
+  .xl {
+    margin: 20vw 5vw;
   }
 }
