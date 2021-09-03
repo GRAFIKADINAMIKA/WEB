@@ -98,16 +98,6 @@ button:hover {
   overflow: hidden;
 }
 
-.mediabox:before{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 2.5vw;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  z-index: 2;
-}
-
 .dude {
   display: block;
   width: 72px;
@@ -214,6 +204,15 @@ footer a {
   a {
     color: var(--blues);
   }
+  .mediabox:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5vw;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 2;
+  }
   .sub {
     background-color: var(--blue);
   }
@@ -241,7 +240,7 @@ footer a {
   }
   button {
     font-size: 9vw;
-    padding: 0 5vw;
+    padding: 0 6vw;
     height: 20vw;
     border-radius: 10vw;
   }
