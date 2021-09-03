@@ -86,7 +86,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  opacity: .4;
+  opacity: .5;
 }
 
 .mediabox {
@@ -144,6 +144,7 @@ button:hover {
   background-color: var(--blue);
   border-radius: 10vw;
   padding: 6.25vw;
+  width: 100%;
 }
 
 .sub > h1 {
@@ -161,8 +162,10 @@ button:hover {
 }
 
 .caption {
+  display: block;
+  position: absolute;
+  bottom: -48px;
   font-size: 2.5vw;
-  margin: 1.5vw auto;
   text-align: center;
 }
 
@@ -183,12 +186,20 @@ button:hover {
 
 footer {
   margin-top: 18.75vw;
-  margin-bottom: 1.5vw;
+  margin-bottom: 40px;
 }
 
-footer .caption {
+footer .info {
+  display: flex;
+  flex-direction: row;
   opacity: .4;
   margin-top: 18.75vw;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+footer .info > span {
+  margin: 0 8px;
 }
 
 footer a {
@@ -213,7 +224,7 @@ footer a {
   footer a {
     color: var(--white);
   }
-  footer .caption {
+  footer .info {
     opacity: .24;
   }
 }
@@ -222,8 +233,28 @@ footer a {
   section, footer {
     margin: 20vw 5vw;
   }
+  footer {
+    margin-bottom: 32px;
+  }
   h1 {
     font-size: 8vw;
+  }
+  button {
+    font-size: 10vw;
+    padding: 0 5vw;
+    height: 20vw;
+    border-radius: 10vw;
+  }
+  footer .info {
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .info > div {
+    margin: 4px auto;
+  }
+  footer .info > span {
+    display: none;
   }
   .caption {
     font-size: 5vw;
@@ -237,5 +268,8 @@ footer a {
     width: 24px;
     height: 24px;
     margin: 24px;
+  }
+  .sub {
+    padding: 5vw;
   }
 }
