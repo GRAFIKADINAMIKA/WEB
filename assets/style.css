@@ -267,8 +267,8 @@ footer a {
     display: none;
   }
   .caption {
-    font-size: 4vw;
-    margin: 2vw auto;
+    font-size: 5vw;
+    bottom: -40px;
   }
   .sub span {
     font-size: 4vw;
@@ -286,12 +286,15 @@ footer a {
     padding: 7vw 5vw;
   }
   .xl {
-    margin: 20vw 5vw;
+    margin: 20vw 2.5vw;
   }
   .xs {
     width: 64px;
     height: 40px;
     font-size: 20px;
     margin: 16px;
+  }
+  .stack .mediabox {
+    margin: 0 2vw;
   }
 }
