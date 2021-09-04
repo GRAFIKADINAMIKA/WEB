@@ -145,7 +145,7 @@ button:hover {
   align-items: center;
   position: relative;
   background-color: var(--blue);
-  border-radius: 10vw;
+  border-radius: 16vw;
   padding: 6.25vw;
   width: 100%;
 }
@@ -241,13 +241,13 @@ footer a {
 
 @media only screen and (max-width: 768px) {
   section, footer {
-    margin: 20vw 5vw;
+    margin: 20vw 2.5vw;
   }
   footer {
     margin-bottom: 32px;
   }
   h1 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
   button {
     font-size: 9vw;
@@ -283,10 +283,10 @@ footer a {
     margin: 24px;
   }
   .sub {
-    padding: 7vw 5vw;
+    padding: 7vw 2.5vw;
   }
   .xl {
-    margin: 20vw 2.5vw;
+    margin: 20vw 0;
   }
   .xs {
     width: 64px;
@@ -295,6 +295,9 @@ footer a {
     margin: 16px;
   }
   .stack .mediabox {
-    margin: 0 2vw;
+    margin: 0 2.5vw;
+  }
+  .mediabox {
+    border-radius: 3vw;
   }
 }
