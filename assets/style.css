@@ -7,7 +7,9 @@
 :root {
   --blue: #0040ff;
   --blues: #0064ff;
-  --white: #fff;
+  --white: #ffffff;
+  --lightgrey: #999999;
+  --grey: #666666;
   --black: #000;
 }
 
@@ -33,7 +35,7 @@ body {
 h1 {
   font-size: 5vw;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   margin: 0;
 }
 
@@ -41,10 +43,9 @@ section, footer {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   position: relative;
-  margin: 12.5vw;
+  margin: 12.5vw 5.625vw;
 }
 
 .xl {
@@ -94,19 +95,20 @@ button:hover {
   height: auto;
   display: block;
   position: relative;
-  border-radius: 2.5vw;
+  border-radius: 3vw;
   overflow: hidden;
 }
 
 .dude {
   display: block;
-  width: 72px;
+  min-width: 48px;
+  width: 3.75vw;
   height: auto;
-  margin: 20px auto;
+  margin: 24px auto;
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 5.625vw;
+  /* right: 0; */
   z-index: 999;
 }
 
@@ -146,11 +148,12 @@ button:hover {
   position: relative;
   background-color: var(--blue);
   border-radius: 16vw;
-  padding: 6.25vw;
-  width: 100%;
+  padding: 5.625vw;
+  width: 85%;
 }
 
 .sub > h1 {
+  text-align: center;
   color: #fff;
 }
 
@@ -170,6 +173,8 @@ button:hover {
   bottom: -48px;
   font-size: 2.5vw;
   text-align: center;
+  left: 0;
+  right: 0;
 }
 
 .divider {
@@ -188,14 +193,15 @@ button:hover {
 }
 
 footer {
+  align-items: center;
   margin-bottom: 40px;
 }
 
 footer .info {
+  color: var(--lightgrey);
   display: flex;
   flex-direction: row;
-  opacity: .4;
-  font-size: 2.5vw;
+  font-size: 2vw;
   text-align: center;
 }
 
@@ -204,16 +210,16 @@ footer .info > span {
 }
 
 footer a {
-  color: var(--black);
+  color: var(--lightgrey);
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: #fff;
-    background-color: #000;
+    color: var(--grey);
+    background-color: var(--black);
   }
   a {
-    color: var(--blues);
+    color: var(--blue);
   }
   .mediabox:before{
     content: '';
@@ -231,11 +237,9 @@ footer a {
     fill: var(--white);
     fill-opacity: 0.24;
   }
+  footer .info,
   footer a {
-    color: var(--white);
-  }
-  footer .info {
-    opacity: .24;
+    color: var(--grey);
   }
 }
 
@@ -272,17 +276,14 @@ footer a {
     bottom: -40px;
   }
   .sub {
-    padding: 7vw 2.5vw;
+    width: 100%;
+    padding: 10vw 2.5vw;
   }
   .sub h1 {
     padding: 0;
   }
   .sub span {
     font-size: 4vw;
-  }
-  .dude {
-    width: 60px;
-    margin: 16px auto;
   }
   .lock {
     width: 24px;
