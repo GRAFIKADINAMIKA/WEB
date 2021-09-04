@@ -248,6 +248,7 @@ footer a {
   }
   h1 {
     font-size: 7vw;
+    padding: 0 2.5vw;
   }
   button {
     font-size: 9vw;
@@ -270,6 +271,12 @@ footer a {
     font-size: 5vw;
     bottom: -40px;
   }
+  .sub {
+    padding: 7vw 2.5vw;
+  }
+  .sub h1 {
+    padding: 0;
+  }
   .sub span {
     font-size: 4vw;
   }
@@ -281,9 +288,6 @@ footer a {
     width: 24px;
     height: 24px;
     margin: 24px;
-  }
-  .sub {
-    padding: 7vw 2.5vw;
   }
   .xl {
     margin: 20vw 0;
