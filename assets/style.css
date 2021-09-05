@@ -44,6 +44,7 @@ section, footer {
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
   margin: 12.5vw 5.625vw;
 }
@@ -112,6 +113,21 @@ button:hover {
   z-index: 999;
 }
 
+.back {
+  margin: 24px auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 160px;
+  text-align: center;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--lightgrey);
+}
+
 .xs {
   font-size: 24px;
   width: 72px;
@@ -173,8 +189,6 @@ button:hover {
   bottom: -48px;
   font-size: 2.5vw;
   text-align: center;
-  left: 0;
-  right: 0;
 }
 
 .divider {
