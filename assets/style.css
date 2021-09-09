@@ -68,6 +68,11 @@ a {
   text-decoration: none;
 }
 
+.sup {
+  font-size: 2.35vw;
+  vertical-align: super;
+}
+
 a:hover {
   opacity: .5;
 }
@@ -185,10 +190,9 @@ button:hover {
 
 .caption {
   display: block;
-  position: absolute;
-  bottom: -48px;
   font-size: 2.5vw;
   text-align: center;
+  margin: 1.5vw 2.5vw;
 }
 
 .divider {
@@ -240,7 +244,7 @@ footer a {
     position: absolute;
     width: 100%;
     height: 100%;
-    border-radius: 2.5vw;
+    border-radius: 3vw;
     border: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 2;
   }
@@ -287,7 +291,7 @@ footer a {
   }
   .caption {
     font-size: 5vw;
-    bottom: -40px;
+    margin: 4vw;
   }
   .sub {
     width: 100%;
