@@ -68,14 +68,18 @@ a {
   text-decoration: none;
 }
 
-.sup {
+/* .sup {
   font-size: 2.35vw;
-  vertical-align: super;
+  /* vertical-align: super;
   font-weight: bold;
-}
+} */
 
 a:hover {
   opacity: .5;
+}
+
+a.disable {
+  color: var(--lightgrey);
 }
 
 button {
