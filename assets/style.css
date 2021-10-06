@@ -333,4 +333,7 @@ footer a {
   .mediabox {
     border-radius: 2.5vw;
   }
+  .dude {
+    position: relative;
+  }
 }
