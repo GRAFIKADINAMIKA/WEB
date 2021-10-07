@@ -139,7 +139,7 @@ button:hover {
   top: 0;
   left: 0;
   right: 0;
-  width: 200px;
+  width: 320px;
   text-align: center;
   height: 32px;
   display: flex;
@@ -324,7 +324,7 @@ footer a {
   }
   .dude {
     position: relative;
-    margin: 5vw;
+    margin: 24px 5vw;
     left: 0;
   }
   .back {
